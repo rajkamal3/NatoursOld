@@ -1,0 +1,13 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "author": "rajkamal",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
